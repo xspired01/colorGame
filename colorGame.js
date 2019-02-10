@@ -78,9 +78,7 @@ resetButton.addEventListener("click", function() {
 });
 
 function changeColors(color) {
-  //loop through all squares
   for (let i = 0; i < squares.length; i++) {
-    //change each color to match given color
     squares[i].style.backgroundColor = color;
   }
 }
